@@ -8,7 +8,7 @@
 
 ### Project Details
 
-For this project, we will work with the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment.
+For this project,the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment is used.
 
 ![Trained Agent][image1]
 
@@ -18,9 +18,7 @@ The observation space consists of 33 variables corresponding to position, rotati
 
 #### Distributed Training
 
-For this project, I have used an environment that contains 20 identical agents, each with its own copy of the environment.  
-
-This version is useful for algorithms like [PPO](https://arxiv.org/pdf/1707.06347.pdf), [A3C](https://arxiv.org/pdf/1602.01783.pdf), and [D4PG](https://openreview.net/pdf?id=SyZipzbCb) that use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience. 
+For this project, I have used an environment that contains 20 identical agents, each with its own copy of the environment. This version is useful for algorithmsthat use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience.
 
 ### Getting Started
 1. Install anaconda on __Windows__ using windows installer at https://www.anaconda.com/products/individual#windows
