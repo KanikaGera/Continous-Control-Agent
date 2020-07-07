@@ -54,9 +54,11 @@ This version is useful for algorithms like [PPO](https://arxiv.org/pdf/1707.0634
     
 3. `ddpg_agent.py` consist of DDPG Algorithm Implementation .
     
-4. `checkpoint_actor.pth`  is saved trained model with weights for actor network.
+4. `saved/checkpoint_actor.pth`  is saved trained model with weights for actor network.
 
-5. `checkpoint_critic.pth`  is saved trained model with weights for critic network.
+5. `saved/checkpoint_critic.pth`  is saved trained model with weights for critic network.
+
+6. `saved/scores.list` is saved scores while training model.
 
 ### Instructions
 1. Install Dependies by following commands in __Getting Started__
@@ -77,3 +79,5 @@ This version is useful for algorithms like [PPO](https://arxiv.org/pdf/1707.0634
 5. Run Jupyter Notebook 
 6. Run the cells to train the model.
 
+### Implementation Details
+Deep Deterministic Policy Gradient Algorithm is used to train . Report is attached to main folder. 
