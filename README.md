@@ -32,18 +32,18 @@ This version is useful for algorithms like [PPO](https://arxiv.org/pdf/1707.0634
     activate drl
     ```
     
-3. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
-```bash
-git clone https://github.com/KanikaGera/Navigation-Game-RL.git
-cd setup 
-conda install pytorch=0.4.1 cuda90 -c pytorch
-pip install .
-```
+3. Clone the repository, and navigate to the `setup/` folder.  Then, install several dependencies.
+    ```bash
+    git clone https://github.com/KanikaGera/Navigation-Game-RL.git
+    cd setup 
+    conda install pytorch=0.4.1 cuda90 -c pytorch
+    pip install .
+    ```
 
 4. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drl` environment.  
-```bash
-python -m ipykernel install --user --name drl --display-name "drl"
-```
+    ```bash
+    python -m ipykernel install --user --name drl --display-name "drl"
+    ```
 
 5. Before running code in a notebook, change the kernel to match the `drl` environment by using the drop-down `Kernel` menu. 
 
